@@ -1,0 +1,68 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<h2>Length Conversion</h2> 
+
+  <h3>MetricToImperial</h3>
+
+  MetreToInch :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="MetreToInch()">Convert</button>
+  <br>
+  <div *ngIf="inch">
+    <span>Answer is {{Inch}}</span>
+  </div>
+
+    MetreToFoot :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="MetreToFoot()">Convert</button>
+  <br>
+  <div *ngIf="foot">
+    <span>Answer is {{Foot}}</span>  </div>
+
+  MetreToYard :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="MetreToYard()">Convert</button>
+  <br>
+  <div *ngIf="yard">
+    <span>Answer is {{Yard}}</span>  </div>
+
+  MetreToMile :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="MetreToMile()">Convert</button>
+  <br>
+  <div *ngIf="mile">
+    <span>Answer is {{Mile}}</span>
+  </div>
+
+  <h3>ImperialToMetric</h3>
+
+  InchToMetre  :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="InchToMetre()">Convert</button>
+  <br>
+  <div *ngIf="metre">
+    <span>Answer is {{Metre}}</span>
+  </div>
+
+  FootToMetre :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="FootToMetre()">Convert</button>
+  <br>
+  <div *ngIf="metree">
+    <span>Answer is {{Metree}}</span>
+  </div>
+
+  YardToMetre :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="YardToMetre()">Convert</button>
+  <br>
+  <div *ngIf="metreee">
+    <span>Answer is {{Metreee}}</span>
+  </div>
+  
+  MileToMetre :<input type="text" (keyup)="onNameKeyUp($event)">
+  <button (click)="MileToMetre()">Convert</button>
+  <br>
+  <div *ngIf="metreeee">
+    <span>Answer is {{Metreeee}}</span>
+  </div>
+
+
